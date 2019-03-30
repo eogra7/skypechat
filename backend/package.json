@@ -1,0 +1,47 @@
+{
+  "name": "skypechat2",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.6",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.3",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "fetch-defaults": "^1.0.0",
+    "jquery": "^3.3.1",
+    "js-cookie": "^2.2.0",
+    "mdbreact": "^4.11.0",
+    "react": "^16.8.4",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.4",
+    "react-easy-state": "^6.1.1",
+    "react-easy-store": "^0.1.20",
+    "react-pose": "^4.0.8",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-scrollable-feed": "^1.0.3",
+    "react-sound": "^1.2.0",
+    "react-spring": "^8.0.15",
+    "react-toolbox": "^2.0.0-beta.13",
+    "typescript": "^3.3.4000"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "redirects": [{
+            "source": "/api",
+            "destination": "http://localhost:5000"
+        }
+    ]
+}
