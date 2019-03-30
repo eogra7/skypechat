@@ -7,7 +7,7 @@
     "test-backend": "nodemon --ignore \"backend/**\" --exec babel-node app.js --extensions '.js,.ts' ",
     "test": "concurrently \"npm run-script test-backend\" \"cd backend && npm start\"",
     "start": "babel-node app.js --extensions '.js,.ts'",
-    "build": "cd backend && npm run-script build && cd .. && docker.exe build -t eogra7/skypechat:latest .",
+    "build": "cd backend && npm run-script build",
     "build-docker": "docker.exe build -t eogra7/skypechat:latest ."
   },
   "author": "",

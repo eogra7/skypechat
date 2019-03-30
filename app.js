@@ -383,7 +383,7 @@ app.post('/api/add-reply', checkToken, checkAdmin, async (req, res) => {
 
 
 console.log("Running as: " + process.env.ENVIRONMENT);
-if(process.env.ENVIRONMENT === 'dev') {
+if(process.env.ENVIRONMENT !== 'prod') {
     console.log("Dev environment detected, not serving any static files.");
 } else {
     app.use(express.static(path.join(__dirname, 'backend/build')));
